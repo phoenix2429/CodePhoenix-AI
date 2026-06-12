@@ -25,3 +25,6 @@ local_postgres_data/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Windows shortcuts
+*.lnk
