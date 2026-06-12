@@ -1,0 +1,1803 @@
+CodePhoenix AI - Technical Report
+Analysis ID,9
+Health Score,97
+Risk Level,LOW
+
+Agent Type,Severity,Summary
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: FileStorageController
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: DashboardController
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: CategoryController
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: ItemController
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserController
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: DashboardController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: CategoryController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: ItemController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: CategoryController
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: DashboardController
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: ItemController
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: AuthResponse
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserController
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: CategoryDto
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryDtoTest {
+
+    @Test
+    void testInstantiation() {
+        CategoryDto instance = new CategoryDto();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: CategoryController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryControllerTest {
+
+    @Test
+    void testCreateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryController target = new CategoryController();
+        // var result = target.createCategory(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllCategories() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryController target = new CategoryController();
+        // var result = target.getAllCategories();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testUpdateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryController target = new CategoryController();
+        // var result = target.updateCategory(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryController target = new CategoryController();
+        // var result = target.deleteCategory(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: ItemController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemControllerTest {
+
+    @Test
+    void testCreateItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemController target = new ItemController();
+        // var result = target.createItem(null, null, null, null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllItems() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemController target = new ItemController();
+        // var result = target.getAllItems();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemController target = new ItemController();
+        // var result = target.deleteItem(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: DashboardController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class DashboardControllerTest {
+
+    @Test
+    void testGetSummary() {
+        // TODO: Initialize required parameters and verify return value
+        // DashboardController target = new DashboardController();
+        // var result = target.getSummary();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: AuthResponse
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserControllerTest {
+
+    @Test
+    void testCreateUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserController target = new UserController();
+        // var result = target.createUser(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllUsers() {
+        // TODO: Initialize required parameters and verify return value
+        // UserController target = new UserController();
+        // var result = target.getAllUsers();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserController target = new UserController();
+        // var result = target.deleteUser(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: DashboardSummary
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: CategoryDto
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: AuthResponse
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: AuthController
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: FileStorageController
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: CategoryDto
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: ItemDto
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: DashboardSummary
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: AuthRequest
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: AuthController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: FileStorageController
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: AuthResponse
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AuthResponseTest {
+
+    @Test
+    void testInstantiation() {
+        AuthResponse instance = new AuthResponse();
+        assertNotNull(instance);
+    }
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderController
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: CategoryDto
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderItemRequest
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: ItemDto
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: AuthRequest
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: DashboardSummary
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderItemRequest
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: AuthController
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: FileStorageController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class FileStorageControllerTest {
+
+    @Test
+    void testServeFile() {
+        // TODO: Initialize required parameters and verify return value
+        // FileStorageController target = new FileStorageController();
+        // var result = target.serveFile(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: ItemDto
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: AuthRequest
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: DashboardSummary
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class DashboardSummaryTest {
+
+    @Test
+    void testInstantiation() {
+        DashboardSummary instance = new DashboardSummary();
+        assertNotNull(instance);
+    }
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderItemRequest
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderItemResponse
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: ItemDto
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemDtoTest {
+
+    @Test
+    void testInstantiation() {
+        ItemDto instance = new ItemDto();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: AuthController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AuthControllerTest {
+
+    @Test
+    void testLogin() {
+        // TODO: Initialize required parameters and verify return value
+        // AuthController target = new AuthController();
+        // var result = target.login(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderItemRequest
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderItemRequestTest {
+
+    @Test
+    void testInstantiation() {
+        OrderItemRequest instance = new OrderItemRequest();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: AuthRequest
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AuthRequestTest {
+
+    @Test
+    void testInstantiation() {
+        AuthRequest instance = new AuthRequest();
+        assertNotNull(instance);
+    }
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderController
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderItemResponse
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserDto
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderRequest
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderResponse
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderController
+
+package com.pos.backend.controller;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderControllerTest {
+
+    @Test
+    void testCreateOrder() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderController target = new OrderController();
+        // var result = target.createOrder(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllOrders() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderController target = new OrderController();
+        // var result = target.getAllOrders();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: Item
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: Category
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderRequest
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: Category
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: Item
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderItemResponse
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderResponse
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserDto
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: Order
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: Category
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderRequest
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: Item
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderRequest
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderRequestTest {
+
+    @Test
+    void testInstantiation() {
+        OrderRequest instance = new OrderRequest();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: Category
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryTest {
+
+    @Test
+    void testInstantiation() {
+        Category instance = new Category();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: Item
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemTest {
+
+    @Test
+    void testInstantiation() {
+        Item instance = new Item();
+        assertNotNull(instance);
+    }
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderItem
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderStatus
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderItemResponse
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderItemResponseTest {
+
+    @Test
+    void testInstantiation() {
+        OrderItemResponse instance = new OrderItemResponse();
+        assertNotNull(instance);
+    }
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderResponse
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: Order
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserDto
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderStatus
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderItem
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: PaymentDetails
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: PaymentMethod
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderResponse
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderResponseTest {
+
+    @Test
+    void testInstantiation() {
+        OrderResponse instance = new OrderResponse();
+        assertNotNull(instance);
+    }
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: Order
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserDto
+
+package com.pos.backend.dto;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserDtoTest {
+
+    @Test
+    void testInstantiation() {
+        UserDto instance = new UserDto();
+        assertNotNull(instance);
+    }
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: PaymentDetails
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: PaymentMethod
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: User
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderItem
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderStatus
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: Role
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: PaymentDetails
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: PaymentMethod
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderItem
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderItemTest {
+
+    @Test
+    void testInstantiation() {
+        OrderItem instance = new OrderItem();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: Order
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderTest {
+
+    @Test
+    void testOnCreate() {
+        // TODO: Initialize required parameters and verify return value
+        // Order target = new Order();
+        // var result = target.onCreate();
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: Role
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: User
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: PaymentMethod
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class PaymentMethodTest {
+
+    @Test
+    void testInstantiation() {
+        PaymentMethod instance = new PaymentMethod();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: PaymentDetails
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class PaymentDetailsTest {
+
+    @Test
+    void testInstantiation() {
+        PaymentDetails instance = new PaymentDetails();
+        assertNotNull(instance);
+    }
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: PosBackendApplication
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: User
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: PosBackendApplication
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: User
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserTest {
+
+    @Test
+    void testInstantiation() {
+        User instance = new User();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderStatus
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderStatusTest {
+
+    @Test
+    void testInstantiation() {
+        OrderStatus instance = new OrderStatus();
+        assertNotNull(instance);
+    }
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserRepository
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: ItemRepository
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderRepository
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: CategoryRepository
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: PosBackendApplication
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserRepository
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: JwtUtil
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: JwtAuthenticationFilter
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: Role
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserRepository
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderRepository
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: CategoryRepository
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: JwtUtil
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: PosBackendApplication
+
+package com.pos.backend;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class PosBackendApplicationTest {
+
+    @Test
+    void testMain() {
+        // TODO: Initialize required parameters and verify return value
+        // PosBackendApplication target = new PosBackendApplication();
+        // var result = target.main(null);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: Role
+
+package com.pos.backend.entity;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class RoleTest {
+
+    @Test
+    void testInstantiation() {
+        Role instance = new Role();
+        assertNotNull(instance);
+    }
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserRepository
+
+package com.pos.backend.repository;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserRepositoryTest {
+
+    @Test
+    void testFindByEmail() {
+        // TODO: Initialize required parameters and verify return value
+        // UserRepository target = new UserRepository();
+        // var result = target.findByEmail(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderRepository
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: CategoryRepository
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: SecurityConfig
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: JwtAuthenticationFilter
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: JwtUtil
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: ItemRepository
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: JwtUtil
+
+package com.pos.backend.security;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class JwtUtilTest {
+
+    @Test
+    void testExtractUsername() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.extractUsername(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testExtractExpiration() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.extractExpiration(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testExtractClaim() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.extractClaim(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testExtractAllClaims() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.extractAllClaims(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testIsTokenExpired() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.isTokenExpired(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGenerateToken() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.generateToken(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testCreateToken() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.createToken(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testValidateToken() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtUtil target = new JwtUtil();
+        // var result = target.validateToken(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderRepository
+
+package com.pos.backend.repository;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderRepositoryTest {
+
+    @Test
+    void testSumTotalSales() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderRepository target = new OrderRepository();
+        // var result = target.sumTotalSales();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testSumTotalSalesBetween() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderRepository target = new OrderRepository();
+        // var result = target.sumTotalSalesBetween(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: CategoryRepository
+
+package com.pos.backend.repository;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryRepositoryTest {
+
+    @Test
+    void testInstantiation() {
+        CategoryRepository instance = new CategoryRepository();
+        assertNotNull(instance);
+    }
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserDetailsImpl
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: JwtAuthenticationFilter
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: SecurityConfig
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserDetailsImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserDetailsServiceImpl
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: AuthService
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: CategoryService
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: JwtAuthenticationFilter
+
+package com.pos.backend.security;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class JwtAuthenticationFilterTest {
+
+    @Test
+    void testDoFilterInternal() {
+        // TODO: Initialize required parameters and verify return value
+        // JwtAuthenticationFilter target = new JwtAuthenticationFilter();
+        // var result = target.doFilterInternal(null, null, null);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserDetailsImpl
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserDetailsServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: SecurityConfig
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: AuthServiceImpl
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: AuthService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: CategoryService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: ItemRepository
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserDetailsImpl
+
+package com.pos.backend.security;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserDetailsImplTest {
+
+    @Test
+    void testGetAuthorities() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.getAuthorities();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetPassword() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.getPassword();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetUsername() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.getUsername();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.getUser();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testIsAccountNonExpired() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.isAccountNonExpired();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testIsAccountNonLocked() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.isAccountNonLocked();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testIsCredentialsNonExpired() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.isCredentialsNonExpired();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testIsEnabled() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsImpl target = new UserDetailsImpl();
+        // var result = target.isEnabled();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: DashboardService
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserDetailsServiceImpl
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: SecurityConfig
+
+package com.pos.backend.security;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class SecurityConfigTest {
+
+    @Test
+    void testSecurityFilterChain() {
+        // TODO: Initialize required parameters and verify return value
+        // SecurityConfig target = new SecurityConfig();
+        // var result = target.securityFilterChain(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testCorsConfigurationSource() {
+        // TODO: Initialize required parameters and verify return value
+        // SecurityConfig target = new SecurityConfig();
+        // var result = target.corsConfigurationSource();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testAuthenticationManager() {
+        // TODO: Initialize required parameters and verify return value
+        // SecurityConfig target = new SecurityConfig();
+        // var result = target.authenticationManager(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testPasswordEncoder() {
+        // TODO: Initialize required parameters and verify return value
+        // SecurityConfig target = new SecurityConfig();
+        // var result = target.passwordEncoder();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: CategoryService
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: AuthServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: ItemRepository
+
+package com.pos.backend.repository;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemRepositoryTest {
+
+    @Test
+    void testInstantiation() {
+        ItemRepository instance = new ItemRepository();
+        assertNotNull(instance);
+    }
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: AuthService
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: CategoryServiceImpl
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: DashboardService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserDetailsServiceImpl
+
+package com.pos.backend.security;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserDetailsServiceImplTest {
+
+    @Test
+    void testLoadUserByUsername() {
+        // TODO: Initialize required parameters and verify return value
+        // UserDetailsServiceImpl target = new UserDetailsServiceImpl();
+        // var result = target.loadUserByUsername(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: AuthService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AuthServiceTest {
+
+    @Test
+    void testLogin() {
+        // TODO: Initialize required parameters and verify return value
+        // AuthService target = new AuthService();
+        // var result = target.login(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: CategoryService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryServiceTest {
+
+    @Test
+    void testCreateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryService target = new CategoryService();
+        // var result = target.createCategory(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllCategories() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryService target = new CategoryService();
+        // var result = target.getAllCategories();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testUpdateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryService target = new CategoryService();
+        // var result = target.updateCategory(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryService target = new CategoryService();
+        // var result = target.deleteCategory(null);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: AuthServiceImpl
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: CategoryServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: DashboardService
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: AuthServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AuthServiceImplTest {
+
+    @Test
+    void testLogin() {
+        // TODO: Initialize required parameters and verify return value
+        // AuthServiceImpl target = new AuthServiceImpl();
+        // var result = target.login(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: ItemServiceImpl
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderServiceImpl
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: DashboardService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class DashboardServiceTest {
+
+    @Test
+    void testGetSummary() {
+        // TODO: Initialize required parameters and verify return value
+        // DashboardService target = new DashboardService();
+        // var result = target.getSummary();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserServiceImpl
+- No immediate logical defects detected in source structure.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: DashboardServiceImpl
+- No immediate logical defects detected in source structure.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: CategoryServiceImpl
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: ItemService
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: ItemServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: OrderService
+- No immediate logical defects detected in source structure.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: DashboardServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: CategoryServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CategoryServiceImplTest {
+
+    @Test
+    void testCreateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryServiceImpl target = new CategoryServiceImpl();
+        // var result = target.createCategory(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllCategories() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryServiceImpl target = new CategoryServiceImpl();
+        // var result = target.getAllCategories();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testUpdateCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryServiceImpl target = new CategoryServiceImpl();
+        // var result = target.updateCategory(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteCategory() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryServiceImpl target = new CategoryServiceImpl();
+        // var result = target.deleteCategory(null);
+        assertTrue(true);
+    }
+
+    @Test
+    void testMapToDto() {
+        // TODO: Initialize required parameters and verify return value
+        // CategoryServiceImpl target = new CategoryServiceImpl();
+        // var result = target.mapToDto(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: ItemService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderServiceImpl
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: DashboardServiceImpl
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: ItemService
+- No immediate computational performance issues detected.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: GlobalExceptionHandler
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderServiceImplTest {
+
+    @Test
+    void testCreateOrder() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderServiceImpl target = new OrderServiceImpl();
+        // var result = target.createOrder(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllOrders() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderServiceImpl target = new OrderServiceImpl();
+        // var result = target.getAllOrders();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testMapToDto() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderServiceImpl target = new OrderServiceImpl();
+        // var result = target.mapToDto(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: DashboardServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class DashboardServiceImplTest {
+
+    @Test
+    void testGetSummary() {
+        // TODO: Initialize required parameters and verify return value
+        // DashboardServiceImpl target = new DashboardServiceImpl();
+        // var result = target.getSummary();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: ItemServiceImpl
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserServiceImpl
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: ItemService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemServiceTest {
+
+    @Test
+    void testCreateItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemService target = new ItemService();
+        // var result = target.createItem(null, null, null, null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllItems() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemService target = new ItemService();
+        // var result = target.getAllItems();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemService target = new ItemService();
+        // var result = target.deleteItem(null);
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: GlobalExceptionHandler
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserServiceImpl
+- No immediate computational performance issues detected.
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: OrderService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+BUG,LOW,"Rule-Based Bug Detection Report for Class: UserService
+- No immediate logical defects detected in source structure.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: ItemServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class ItemServiceImplTest {
+
+    @Test
+    void testCreateItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemServiceImpl target = new ItemServiceImpl();
+        // var result = target.createItem(null, null, null, null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllItems() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemServiceImpl target = new ItemServiceImpl();
+        // var result = target.getAllItems();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteItem() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemServiceImpl target = new ItemServiceImpl();
+        // var result = target.deleteItem(null);
+        assertTrue(true);
+    }
+
+    @Test
+    void testSaveFile() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemServiceImpl target = new ItemServiceImpl();
+        // var result = target.saveFile(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testMapToDto() {
+        // TODO: Initialize required parameters and verify return value
+        // ItemServiceImpl target = new ItemServiceImpl();
+        // var result = target.mapToDto(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: GlobalExceptionHandler
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserServiceImpl
+
+package com.pos.backend.service.impl;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserServiceImplTest {
+
+    @Test
+    void testCreateUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserServiceImpl target = new UserServiceImpl();
+        // var result = target.createUser(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllUsers() {
+        // TODO: Initialize required parameters and verify return value
+        // UserServiceImpl target = new UserServiceImpl();
+        // var result = target.getAllUsers();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserServiceImpl target = new UserServiceImpl();
+        // var result = target.deleteUser(null);
+        assertTrue(true);
+    }
+
+    @Test
+    void testMapToDto() {
+        // TODO: Initialize required parameters and verify return value
+        // UserServiceImpl target = new UserServiceImpl();
+        // var result = target.mapToDto(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: OrderService
+- No immediate computational performance issues detected.
+"
+BUG,HIGH,"The `DataInitializer` class is responsible for setting up an upload directory and creating a default admin user. While its overall purpose is sound, there are several areas for improvement concerning error handling and security best practices:
+
+1.  **Potential `IOException` for Directory Creation (Bug/Logic Flaw):** The `Files.createDirectories(path)` call is not wrapped in a `try-catch` block. If the directory cannot be created due to insufficient permissions, disk full errors, or other file system issues, an `IOException` will be thrown. This exception will propagate up, likely preventing the application from starting gracefully or causing silent failure of this critical initializer task, leading to subsequent file-related operations failing.
+
+2.  **Sensitive Information in Logs (Potential Defect/Security Best Practice):** The statement `System.out.println(""Default Admin User created: admin@gmail.com / admin123"");` prints the default password in plain text to the console/application logs. Logging sensitive information, even for default credentials, is generally a bad security practice, especially in production environments where logs might be accessible to unauthorized personnel. It should ideally be logged at a DEBUG level, or the password should be masked/omitted entirely.
+
+3.  **Lack of Error Handling for Database Operations (Potential Defect):** Database operations like `userRepository.findByEmail` and `userRepository.save` are not explicitly handled with `try-catch` blocks. While critical database issues typically prevent application startup earlier, unexpected runtime exceptions during these operations could lead to an ungraceful shutdown of the application without specific error logging or handling within this initializer."
+TEST,LOW,"JUnit 5 Test Recommendations for Class: GlobalExceptionHandler
+
+package com.pos.backend.util;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class GlobalExceptionHandlerTest {
+
+    @Test
+    void testHandleAllExceptions() {
+        // TODO: Initialize required parameters and verify return value
+        // GlobalExceptionHandler target = new GlobalExceptionHandler();
+        // var result = target.handleAllExceptions(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testHandleRuntimeException() {
+        // TODO: Initialize required parameters and verify return value
+        // GlobalExceptionHandler target = new GlobalExceptionHandler();
+        // var result = target.handleRuntimeException(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: UserService
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: OrderService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class OrderServiceTest {
+
+    @Test
+    void testCreateOrder() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderService target = new OrderService();
+        // var result = target.createOrder(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllOrders() {
+        // TODO: Initialize required parameters and verify return value
+        // OrderService target = new OrderService();
+        // var result = target.getAllOrders();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
+SECURITY,LOW,"Rule-Based Security Scan Report for Class: DataInitializer
+- No obvious OWASP security flaws found via static pattern signatures.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: UserService
+- No immediate computational performance issues detected.
+"
+PERFORMANCE,LOW,"Rule-Based Performance Scan Report for Class: DataInitializer
+- No immediate computational performance issues detected.
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: UserService
+
+package com.pos.backend.service;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class UserServiceTest {
+
+    @Test
+    void testCreateUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserService target = new UserService();
+        // var result = target.createUser(null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testGetAllUsers() {
+        // TODO: Initialize required parameters and verify return value
+        // UserService target = new UserService();
+        // var result = target.getAllUsers();
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+    @Test
+    void testDeleteUser() {
+        // TODO: Initialize required parameters and verify return value
+        // UserService target = new UserService();
+        // var result = target.deleteUser(null);
+        assertTrue(true);
+    }
+
+}
+"
+TEST,LOW,"JUnit 5 Test Recommendations for Class: DataInitializer
+
+package com.pos.backend.config;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class DataInitializerTest {
+
+    @Test
+    void testInitData() {
+        // TODO: Initialize required parameters and verify return value
+        // DataInitializer target = new DataInitializer();
+        // var result = target.initData(null, null);
+        // assertNotNull(result);
+        assertTrue(true);
+    }
+
+}
+"
